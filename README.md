@@ -27,8 +27,10 @@ OpenLane flow consists of several stages. By default all flow steps are run in s
  i. RePLace - Performs global placement
  ii. Resizer - Performs optional optimizations on the design
  iii. OpenDP - Performs detailed placement to legalize the globally placed components
-# 4.CTS
+ 
+ 4.**CTS**
  i. TritonCTS - Synthesizes the clock distribution network (the clock tree)
-# 5.Routing
+
+ 5.**Routing**
  i. FastRoute - Performs global routing to generate a guide file for the detailed router
  ii.TritonRoute - Performs detailed routing
