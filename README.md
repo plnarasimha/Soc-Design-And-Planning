@@ -1,6 +1,7 @@
 # Soc-Design-And-Planning
 # Table of the contents
-* Day-1 [Inception of Open-Source EDA, OpenLane and Sky130 PDK ]
+* Day-1
+  [ Inception of Open-Source EDA, OpenLane and Sky130 PDK ]
 * Day-2 Good Floorplan Vs Bad Floorplan and Introduction to Library Cells
 * Day-3 Design Library Cell using magic layout and ngspice charcterization
 * Day-4 Timing Analysis and Clock Tree Synthesis (CTS)
