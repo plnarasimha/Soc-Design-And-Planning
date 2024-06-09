@@ -16,19 +16,25 @@ OpenLane flow consists of several stages. By default all flow steps are run in s
  1.**Synthesis**
  
  i. yosys/abc - Perform RTL synthesis and technology mapping.
+ 
  ii .OpenSTA - Performs static timing analysis on the resulting netlist to generate timing reports
  
  2.**Floorplaning**
  
- i. init_fp - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing)
+ i. init_fp - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing).
+ 
  ii. ioplacer - Places the macro input and output ports
+ 
  iii. pdngen - Generates the power distribution network
+ 
  iv. tapcell - Inserts welltap and decap cells in the floorplan
 
  3.**Placement**
  
  i. RePLace - Performs global placement
+ 
  ii. Resizer - Performs optional optimizations on the design
+ 
  iii. OpenDP - Performs detailed placement to legalize the globally placed components
  
  4.**CTS**
@@ -38,4 +44,5 @@ OpenLane flow consists of several stages. By default all flow steps are run in s
  5.**Routing**
  
  i. FastRoute - Performs global routing to generate a guide file for the detailed router
+ 
  ii.TritonRoute - Performs detailed routing
