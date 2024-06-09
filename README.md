@@ -12,7 +12,7 @@ OpenLane is an automated RTL to GDSII flow based on several components including
 
 # OpenLane Design Stages
 OpenLane flow consists of several stages. By default all flow steps are run in sequence. Each stage may consist of multiple sub-stages. OpenLane can also be run interactively as shown here.
-# 1.Synthesis
+ **1.Synthesis**
  i. yosys/abc - Perform RTL synthesis and technology mapping.
  ii .OpenSTA - Performs static timing analysis on the resulting netlist to generate timing reports
 # 2.Floorplaning
