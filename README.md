@@ -15,7 +15,7 @@ OpenLane flow consists of several stages. By default all flow steps are run in s
  
  1.**Synthesis**
  
- i. > yosys/abc> - Perform RTL synthesis and technology mapping.
+ i. > yosys/abc - Perform RTL synthesis and technology mapping.
  
  ii .OpenSTA - Performs static timing analysis on the resulting netlist to generate timing reports
  
